@@ -17,7 +17,7 @@ public class Client {
 	    System.out.println(target.path("rest").path("RestServices").request().accept(MediaType.TEXT_PLAIN).get(String.class));
 	    System.out.println(target.path("rest").path("RestServices").request().accept(MediaType.TEXT_XML).get(String.class));
 
-	    
+	    System.out.println("hello");
 	}
 
 
